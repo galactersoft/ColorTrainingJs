@@ -1,0 +1,22 @@
+{
+  "name": "colortraining",
+  "version": "0.1.0",
+  "description": "Color Training Web Application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/galactersoft/ColorTrainingJs.git"
+  },
+  "author": "T.Orito",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/galactersoft/ColorTrainingJs/issues"
+  },
+  "homepage": "https://github.com/galactersoft/ColorTrainingJs#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
