@@ -3,7 +3,7 @@
 const express = require('express');
 const app = express();
 let path = require('path');
-const port = 3000;
+const port = 80;
 
 // ルーティング設定
 app.get('/', function(req, res) {
