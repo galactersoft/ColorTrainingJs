@@ -22,7 +22,7 @@ class StateBase {
     text("左側にある " + str + " 色のカラーパレットから、各問にあう色を選んでください。", 600, 90);
     textSize(16);
     if( params.MODEL_COURSEWORK ) {
-      text("学籍番号:",  900, 125);
+      text("学籍番号:", 850, 125);
       trainingData.inpUserInfo[0].show();
       text("氏名:",  1120, 125);
       trainingData.inpUserInfo[1].show();

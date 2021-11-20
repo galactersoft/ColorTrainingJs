@@ -88,6 +88,16 @@ class SettingParameters {
       this.MODEL_COURSEWORK = false;
       this.MODEL_RESEARCH = true;
     }
+    // URL指定がある場合は、その指定優先（上書き）
+    let urlParams = getURLParams();
+    if( urlParams.model == "c") {
+      this.MODEL_COURSEWORK = true;
+      this.MODEL_RESEARCH = false;
+    }
+    else if( urlParams.model == "r") {
+      this.MODEL_COURSEWORK = false;
+      this.MODEL_RESEARCH = true;
+    }
     
     // カラーチップの表色系データファイル名
     this.COLCHIP_FILE = jobjAppSettings.datafile;

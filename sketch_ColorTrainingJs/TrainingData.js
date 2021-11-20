@@ -30,7 +30,7 @@ class TrainingData {
     this.inpUserInfo = new Array(4);
     // 学籍番号
     this.inpUserInfo[0] = createInput("");
-    this.inpUserInfo[0].position(params.xforig+330, params.yforig);
+    this.inpUserInfo[0].position(params.xforig+280, params.yforig);
     this.inpUserInfo[0].input(this.inpEventId);
     this.inpUserInfo[0].hide();
     // 氏名
